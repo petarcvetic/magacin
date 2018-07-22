@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Josefin+Sans:400,700|PT+Sans|Poiret+One|Raleway:400,700,900|Slabo+27px|Titillium+Web:400,700&subset=latin-ext');
+
+/*
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Poiret One', cursive;
+
+*/
+
+
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	background: linear-gradient(to bottom right, #d3f8b4, #effee2, #d3f8b4);
+}
+
+.wrapper{
+	
+	width:90%;
+	min-height:700px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto; 
+	/* padding-bottom:30px; */
+}
+
+.header{
+	margin: 0 auto;
+	height:100px;
+	width: 100%;
+	background: linear-gradient(#262626, #3c3c3c, #262626);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.logo {
+	float: left;
+	margin-top: 10px;
+}
+
+.logo img {
+	width: 80px;
+	height: 80px;
+}
+
+.submit{
+	min-width:50px;
+	padding:5px 8px;
+	border-radius:5px;
+	border: 1px solid #3c3c3c;
+	background-color: #9bd06f;
+	color:#000000;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+legend {
+	font-family: 'Raleway', sans-serif;
+}
+
+#logg{
+	padding:10px 15px 0 0;
+	width:350px;
+	color: white;
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: right;
+}
+
+.menu {
+	margin: 20px 0 10px 5px;
+	clear: right;
+	float: left;
+}
+
+.menulist {
+	margin: 0;
+	text-align: left;
+}
+.menulist li {
+	display: inline;
+	list-style-type: none;
+	vertical-align: middle;
+	padding: 0 14px;
+	
+}
+
+.menu a:link, a:visited {
+	color: #9bd16f;
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	transition: 0.5s color;
+	letter-spacing: 1px;
+}
+
+.menu a:hover, a:active {
+	color:  white;
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	transition: 0.5s color;
+	letter-spacing: 1px;
+}
+
+#faktura{
+	background-color:white;
+	float:left; 
+	margin:50px 0 50px 80px ;   
+	width:60%; 
+	padding:10px;
+	border: 1px solid #3c5923;
+	box-shadow: 0 15px 30px 0px #555555;
+	font-family: 'Titillium Web', sans-serif;
+	border-radius: 6px;
+}
+
+#logo {
+	margin:auto;
+}
+
+.head{
+	font-size:14px;
+}
+
+#nazivFirme{
+	text-transform: uppercase;
+}
+
+#kupac{
+	margin-top:30px;
+	padding:7px;
+	width: 315px;  
+	border-style: solid;
+    border-width: 1px;
+    border-color: #3c5923;
+    border-radius: 4px;
+	float:left;
+}
+
+#firma{
+	float:right;
+	height:14px; 
+	font-size:12px	
+}
+
+.kupacInfo{
+	float:right;
+	height:14px; 
+	font-size:12px
+}
+
+#dksInfo{
+	padding:7px;
+	margin-top:30px;
+	width:240px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #3c5923;
+    border-radius: 4px;
+	float:right;
+}
+
+#rabat{
+	text-align:center;
+}
+
+#skonto{
+	text-align:center;
+}
+
+#redBr{
+	font-weight: bold;
+	clear:both; 
+	padding:10px; 
+}
+
+
+#placanje{
+	float:left;
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+.plac{
+	margin-left:10px;
+	padding:0px;
+	font-size:12px;
+}
+
+#datum{
+	font-size:12px;
+	float:right;
+	margin-bottom:10px;
+}
+
+.dat{
+	float:right;
+}
+ 
+ #tabela{
+	width:100%;
+	clear:both;
+	border-collapse: collapse;
+	font-size:12px;
+ }
+ 
+ #tabelaArhiva{
+	width:100%;
+	background: white;
+	clear:both;
+	border-collapse: collapse;
+	border-radius: 5px;
+	border: 1px solid #3c5923;
+	font-size:16px;
+	margin-bottom: 60px;
+	box-shadow: 0 15px 30px 0px #555555;
+ }
+ 
+ #arhiva{
+	 margin:65px 30px 0 0;
+/*	 width:50%;  */
+	 float:right;
+ }
+
+
+ 
+ #tr{
+	height:17px;
+	font-weight: bold;
+ }
+ 
+ tr{
+	padding:0px;
+ }
+ 
+ td{
+	 padding:5px 5px;
+ }
+ 
+ .red{
+	width:33px;
+	text-align: center;
+ }
+ 
+ .opis{
+	width:245px;
+ }
+ 
+ .cena{
+	width:62px;
+	padding:0;
+	
+	text-align: center;
+}
+
+.cena1{
+	width:80px;
+	text-align: right;
+}
+
+.kol{
+	margin:0px;
+	padding:0px;
+	font-size:11px;
+}
+
+.napomene{
+	margin-top:50px;
+}
+
+.potpis{
+	font-size:12px;
+	text-align:center;
+	width:210px;
+	margin:40px 20px 0 20px;
+}
+
+#primio{
+	float:left;
+}
+
+#predao{
+	float:right;
+}
+
+#print{
+	clear:both;
+	font-size:16px;
+}
+
+#inputNew{
+	float:right;
+	margin:50px 30px;
+}
+
+button{
+	float:right;
+}
+
+.editKupaca{
+	float:left;
+	margin:50px 0 250px 20px;
+}
+
+.editKorisnika{
+	float:left;
+	margin:50px 0 250px 30px;
+}
+
+#login{
+	width:350px;
+	margin:70px 70px 210px 70px;
+}
+
+.korisnikInfo{
+	float:left;
+}
+
+#admins{
+	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
+.footer{
+	clear: both;
+	margin: 80px auto 0 auto;
+	height: 40px;
+	width: 100%;
+	background: linear-gradient(#262626, #3c3c3c, #262626);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: white;
+	font-family:'Alegreya Sans', sans-serif; 
+	font-size: 16px;
+
+}
+
+.footer a:link, a:visited {
+	color: #9bd16f;
+	font-size: 16px;
+	text-decoration: none;
+	transition: 0.5s color;
+	font-family:'Alegreya Sans', sans-serif;
+}
+
+.footer a:hover, a:active {
+	color:  white;
+	font-size: 16px;
+	text-decoration: none;
+	transition: 0.5s color;
+	font-family:'Alegreya Sans', sans-serif;
+}
+
+#p1 {
+	float: left;
+	margin: 10px 10px;
+}
+
+#p2 {
+	float: right;
+	margin: 10px 10px;
+}
+
+@media print{
+    .non-printable { display: none; }
+	.header{display: none;}
+}
+
+fieldset {
+	border: 1px solid #4b4b4b;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+legend {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+input, datalist, textarea, select {
+	border-radius: 3px;
+}
+
+#brojFakture {
+	font-size:16px;
+	font-weight: bold;
+    border: 1px solid #ccc;
+	text-align:right;
+}
+
+#fakturaBr{
+/*	font-size:15px;    */
+	text-align: right;
+	font-weight: bold;
+}
+
+
+
+@media print {
+	
+	@page {
+		size: auto;   /* auto is the initial value */
+		margin: 0;  /* this affects the margin in the printer settings */
+	}
+	
+	input{
+		border: 0px;
+	}
+	
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		text-indent: 1px;
+		text-overflow: '';
+		border: 0px;
+	}
+	
+	.uplata{ 
+		display: none; 
+	}
+	
+	.editKupaca{
+		display:none;
+	}
+	 
+	.footer{
+		display:none;
+	}
+	
+	#tabelaArhiva{
+		width:100%;
+		background: white;
+		clear:both;
+		border-collapse: collapse;
+		border-radius: 5px;
+		border: 1px solid #3c5923;
+		font-size:16px;
+		margin-bottom: 60px;
+		box-shadow: 0;
+	 }
+	 
+	#faktura{ 
+		background-color: blue;
+        height: 99%;
+        width: 100%;
+     /*   position: fixed;  */
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0px;  
+        font-size: 14px;
+        line-height: 18px;
+		border-radius: 0;
+		border: none;
+		box-shadow: 0 ;		
+	}
+}
